@@ -1,9 +1,15 @@
 import React from 'react'
 import Navbar from './sections/Navbar'
+import Hero from './sections/Hero'
+
 
 const App = () => {
   return (
-    <Navbar/>
+    <main className='max-w-12xl mx-auto'>
+      <Navbar/>
+      <Hero/>
+    
+    </main>
   )
 }
 
