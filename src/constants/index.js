@@ -97,7 +97,45 @@ export const myProjects = [
       },
     ],
   },
-  
+  {
+    title: 'StoreIt - Storage Management System',
+    desc: 'An innovative storage management platform designed to streamline essential logistics processes. It simplifies inventory tracking, warehouse organization, and supply chain management, providing a seamless experience for both warehouse managers and logistics teams.',
+    subdesc:
+      'With a focus on efficiency, StoreIt integrates complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+    href: 'https://github.com/DANUCKSAN/storage-management-system-nextJS-',
+    texture: '/textures/project/project.mov',
+    logo: '/assets/project-logo4.svg',
+    logoStyle: {
+      backgroundColor: '#60f5a1',
+      background:
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
