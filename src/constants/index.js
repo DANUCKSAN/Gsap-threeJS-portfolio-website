@@ -102,7 +102,7 @@ export const myProjects = [
     desc: 'An innovative storage management platform designed to streamline essential logistics processes. It simplifies inventory tracking, warehouse organization, and supply chain management, providing a seamless experience for both warehouse managers and logistics teams.',
     subdesc:
       'With a focus on efficiency, StoreIt integrates complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://github.com/DANUCKSAN/storage-management-system-nextJS-',
+    href: 'https://github.com/DANUCKSAN/storage-application-nextjs-project',
     texture: '/textures/project/project.mov',
     logo: '/assets/project-logo4.svg',
     logoStyle: {
